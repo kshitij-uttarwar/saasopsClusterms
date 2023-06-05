@@ -1,7 +1,7 @@
 steps:
 #First Clone from Google Cloud Source Repository  
 - name: 'gcr.io/cloud-builders/git'
-  args: ['clone','kshitij-uttarwar/saasopsClusterms']
+  args: ['clone','https://github.com/kshitij-uttarwar/saasopsClusterms']
 
 #Build the image 
 - name: 'gcr.io/cloud-builders/docker'
