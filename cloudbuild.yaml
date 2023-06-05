@@ -26,7 +26,7 @@ substitutions:
     #GCP Specific configuration. Please DON'T change anything
     _PROJECT: rfx-eng-wfmdo-pune-d
     _ZONE: us-central1-a
-    _GKE_CLUSTER: clustapp-gke-cluster
+    _GKE_CLUSTER: clustms-cluster  #clustapp-gke-cluster
     
     #Repository Specific configuration. DevOps can change this settings
     _DEPLOYMENTNAME: clustapp-service
