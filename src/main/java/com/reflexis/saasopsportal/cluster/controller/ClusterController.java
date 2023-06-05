@@ -38,7 +38,7 @@ public class ClusterController {
 		return cluster;
 	}
 	
-	@GetMapping("/getAllClusters")
+	@GetMapping("/clusters")
 	public List<Cluster> getAllClusters(){
 		logger.info("getAllClusters ");	
 		List<Cluster> clusters = clusterService.getAllClusters();
