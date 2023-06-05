@@ -3,6 +3,10 @@ steps:
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','https://github.com/kshitij-uttarwar/saasopsClusterms']
 
+#mvn clean install 
+- name: 'gcr.io/cloud-builders/mvn'
+  args: ['clean','install]
+  
 #Build the image 
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build','-t','gcr.io/${_PROJECT}/${_CONTAINERNAME}:${_VERSION}','.']
