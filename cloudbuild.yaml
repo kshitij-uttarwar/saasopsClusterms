@@ -5,7 +5,7 @@ steps:
 
 #mvn clean install 
 - name: 'gcr.io/cloud-builders/mvn'
-  args: ['clean','install]
+  args: ['clean','install']
   
 #Build the image 
 - name: 'gcr.io/cloud-builders/docker'
