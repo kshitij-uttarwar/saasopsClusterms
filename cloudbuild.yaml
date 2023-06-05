@@ -29,7 +29,7 @@ substitutions:
     _GKE_CLUSTER: clustms-cluster  #clustapp-gke-cluster
     
     #Repository Specific configuration. DevOps can change this settings
-    _DEPLOYMENTNAME: clustapp-service
+    _DEPLOYMENTNAME: clustapp
     _CONTAINERNAME: clustapp   
     _REPO_NAME: cicd-service
     
