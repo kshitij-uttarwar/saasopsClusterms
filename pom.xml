@@ -14,7 +14,7 @@
 	<name>cluster-service</name>
 	<description>cluster-service</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	    <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 	</properties>
 	<dependencies>
@@ -79,7 +79,16 @@
 					</excludes>
 				</configuration>
 			</plugin>
-		</plugins>
+			<plugin>
+			 <groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.0</version>
+				  <configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				  </configuration>
+				 </plugin>
+			</plugins>
 	</build>
 
 </project>
